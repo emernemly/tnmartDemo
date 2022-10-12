@@ -1,0 +1,34 @@
+.cordonnne {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  .card {
+    background-color: #fff;
+    width: 20%;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 125px;
+    transition: 0.5s;
+    .card-contant {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+.clrown:hover {
+  background-color: #f1f7f9;
+}
+.clrtow:hover {
+  background-color: #edfbf4;
+}
+.clrthree:hover {
+  background-color: #eeedfb;
+}
+.clrfour:hover {
+  background-color: #e8f2f5;
+}
+.clrfive:hover {
+  background-color: #f7eae8;
+}

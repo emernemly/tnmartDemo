@@ -1,0 +1,29 @@
+.bestselling {
+  background-color: #fff;
+  height: 350px;
+  p {
+    font-size: 15px !important;
+  }
+  .title {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+  }
+  .products-title {
+    height: 70px;
+    background-color: #f5f6fa;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .products {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-around;
+    p {
+      max-width: 200px;
+    }
+  }
+}
